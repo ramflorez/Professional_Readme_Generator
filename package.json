@@ -1,1 +1,19 @@
-{}
+{
+  "name": "professional_readme_generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramflorez/Professional_Readme_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramflorez/Professional_Readme_Generator/issues"
+  },
+  "homepage": "https://github.com/ramflorez/Professional_Readme_Generator#readme"
+}
