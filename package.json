@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ramflorez/Professional_Readme_Generator/issues"
   },
-  "homepage": "https://github.com/ramflorez/Professional_Readme_Generator#readme"
+  "homepage": "https://github.com/ramflorez/Professional_Readme_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
