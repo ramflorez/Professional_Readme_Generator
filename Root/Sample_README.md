@@ -1,13 +1,7 @@
-# Professional Readme Generator
-![](https://img.shields.io/apm/l/vim-mode) 
 
-Node.js, Github API, Inquirer package
-ramflorez@yahoo.com
+  # **Professional Readme Generator**
 
-# Walkthrough Video
-
-<img src = "Root/ProfGenRead.gif"> 
-
+  ![](https://img.shields.io/apm/l/vim-mode) 
   
   
   ## Description 
@@ -28,7 +22,7 @@ ramflorez@yahoo.com
   
   ## Installation
   
-          First instal the AXIOS (npm install --save axios) and Inquirer package (npm install inquirer). Then, invoke the application by running node. index.js and answer the questions. A high quality README file will be generated, and it will be saved in the "generatedFile" folder.
+          First instal the AXIOS (npm install --save axios) and Inquirer package (npm install inquirer). Then, answers the questions. A high quality README file will be generated, and it will be saved in the "generatedFile" folder.
   
   ## Usage
   
@@ -40,7 +34,7 @@ ramflorez@yahoo.com
   
   ## Contributing
   
-  Myself, Ramiro Florez, ramflorez@yahoo.com
+  Myself Ramiro Florez ramflorez@yahoo.com
   
   ## Test
   
@@ -51,16 +45,10 @@ ramflorez@yahoo.com
   
   - [Project Repo](https://github.com/ramflorez/Professional_Readme_Generator)
   
-  ## Sample README File
-
-  A sample of a generated file can be found in the repository files with the name "Sample README". Please follow this link.
-
-  <a href="Root/Sample_README.md"> Sample README</a>
-  
   ## GitHub_&_Questions
-
+  
   ![author image](https://avatars.githubusercontent.com/u/79117018?v=4)
-  - Ramiro Florez
+  - null
   - [GitHub Profile](https://github.com/ramflorez)
   - <null>
   
