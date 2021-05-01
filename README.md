@@ -1,2 +1,2 @@
 # Professional_Readme_Generator
-![Git](./ProfGenRead.gif) 
+![Demo](./ProfGenRead.gif) 
