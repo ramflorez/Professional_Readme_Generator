@@ -11,29 +11,30 @@ const questions = [
     },
     {
         type: "input",
-        name: "badge",
-        message: "Select badges for your licenses"
-    },
-    {
-        type: "input",
         name: "description",
         message: "Provide your project's description."
     },
     {
         type: "input",
         name: "installation",
-        message: "Explain the installation instructions."
+        message: "Explain the installation of your project."
     },
     {
         type: "input",
-        name: "objective",
-        message: "Describe the objective of your project."
+        name: "usage",
+        message: "Describe the usage of your project."
     },
-    
+    {
+        type: 'checkbox',
+        name: 'license',
+        choices: ['GNU GPLv3', 'MIT', 'Apache', 'ISC', 'none'],
+        message: 'What type of license badge do you want on your project?'
+    },
+
     {
         type: "input",
         name: "contributing",
-        message: "Provide contact information contributors to your project"
+        message: "Provide contact information of contributing parties"
     },
     {
         type: "input",
@@ -47,18 +48,21 @@ const questions = [
     },
     {
         type: "input",
-        name: "files",
-        message: "insert link to your project files"
+        name: "repo",
+        message: "insert link to your project repo files"
     },
 ];
 
+async function init() {
 inquirer
     .prompt(questions)
-    .then(function(data){
+    .then(async function(data){
         const queryUrl = `https://api.github.com/users/${data.username}`;
 
-        axios.get(queryUrl).then(function(res) {
-            
+       // axios.get(queryUrl).then(function(res) {
+          
+        try {
+            const res = await axios.get(queryUrl)
             const githubInfo = {
                 githubImage: res.data.avatar_url,
                 email: res.data.email,
@@ -66,19 +70,32 @@ inquirer
                 name: res.data.name
             };
             
-          fs.writeFile("ProfREADME.md", generate(data, githubInfo), function(err) {
+          fs.writeFile(__dirname + '/generatedFile/README.md', generate(data, githubInfo), function(err) {
             if (err) {
               throw err;
             };
     
-            console.log("New ProREADME file created!");
-          });
-        });
+            console.log("New README file created!");
+          })
+        }
 
-});
+        catch (err) {
+            const githubInfo = {
+                githubImage: null,
+                email: null,
+                name: null
+            }
+            fs.writeFile(__dirname + '/generatedFile/README.md', generate(data, githubInfo), function(err) {
+                if (err) {
+                    throw err;
+                };
+    
+                console.log("New README file created!");
+        })
+    }
+})
+};
 
-function init() {
-
-}
 
 init();
+
