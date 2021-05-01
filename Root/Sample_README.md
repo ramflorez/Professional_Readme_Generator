@@ -1,5 +1,5 @@
 
-  # **Professional Readme Generator**
+  # **Sample Professional Readme from the Generator App.**
 
   ![](https://img.shields.io/apm/l/vim-mode) 
   

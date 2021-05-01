@@ -1,7 +1,8 @@
 # Professional Readme Generator
 ![](https://img.shields.io/apm/l/vim-mode) 
 
-Node.js, Github API, Inquirer package
+Node.js, Github API, Inquirer package.
+
 ramflorez@yahoo.com
 
 # Walkthrough Video
