@@ -1,7 +1,7 @@
 # Professional Readme Generator
 ![](https://img.shields.io/apm/l/vim-mode) 
 
-Node.js, Github API, Inquirer package.
+Node.js, Inquirer package, Github API, Axios.
 
 ramflorez@yahoo.com
 
