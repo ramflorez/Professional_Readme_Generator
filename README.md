@@ -56,7 +56,7 @@ ramflorez@yahoo.com
 
   A sample of a generated file can be found in the repository files with the name "Sample README". Please follow this link.
 
-  <a href="Root/Sample_README.md"> Sample README</a>
+  <a href="Sample_README.md"> Sample README</a>
   
   ## GitHub_&_Questions
 
