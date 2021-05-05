@@ -70,7 +70,7 @@ inquirer
                 name: res.data.name
             };
             
-          fs.writeFile(__dirname + '/generatedFile/README.md', generate(data, githubInfo), function(err) {
+          fs.writeFile(__dirname + '/GenREADME.md', generate(data, githubInfo), function(err) {
             if (err) {
               throw err;
             };
