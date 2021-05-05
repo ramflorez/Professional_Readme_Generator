@@ -29,7 +29,7 @@ ramflorez@yahoo.com
   
   ## Installation
   
-          First instal AXIOS (npm install --save axios) and Inquirer package (npm install inquirer). Then, invoke the application by running node. index.js and answer the questions. A high quality README file will be generated, and it will be saved in the "generatedFile" folder.
+          First instal AXIOS (npm install --save axios) and Inquirer package (npm install inquirer). Then, invoke the application by running node. index.js and answer the questions. A high quality README file will be generated. Look for the Readme file in the Root folder labeled "GenReadme".
   
   ## Usage
   
